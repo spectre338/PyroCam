@@ -17,7 +17,8 @@ $cd PyroCam
 
 Install Express, Socket.io and nconf
 
-$ sudo npm install express socket.io nconf--save 
+$ sudo npm install express socket.io nconf --save 
+$ Sudo npm install
 
 To install temporarily and not add it to the dependencies list, omit the --save option
 
