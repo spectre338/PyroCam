@@ -9,6 +9,9 @@ Verify:
 pi@raspberrypi ~ $ node -v
 v0.12.0
 
+Clone Latest PyroCam
+git clone https://github.com/spectre338/PyroCam.git
+
 Step into PyroCam
 $cd PyroCam
 
