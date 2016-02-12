@@ -1,0 +1,19 @@
+{
+  "name": "pyrocam",
+  "version": "1.0.0",
+  "description": "Target Camera",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spectre338/PyroCam.git"
+  },
+  "author": "ACCS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spectre338/PyroCam/issues"
+  },
+  "homepage": "https://github.com/spectre338/PyroCam#readme"
+}
