@@ -1,5 +1,14 @@
 # PyroCam
 
+Install node.js from Adafruit:
+curl -sLS https://apt.adafruit.com/add | sudo bash
+
+sudo apt-get install node
+
+Verify:
+pi@raspberrypi ~ $ node -v
+v0.12.0
+
 Step into PyroCam
 $cd PyroCam
 
