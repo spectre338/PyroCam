@@ -26,3 +26,17 @@ $ mkdir /home/pi/ram
 To install temporarily and not add it to the dependencies list, omit the --save option
 
 $ sudo node index.js
+
+npm -g install forever
+
+Install
+$ npm install -g upstarter
+
+Usage
+In the root of your project, run:
+
+$ sudo upstarter
+
+sudo apt-get install upstart
+
+npm -g install forever
