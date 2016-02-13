@@ -10,9 +10,9 @@ var nconf = require('nconf');
 
 var proc;
 var fileWatcher = null;
-var imgPath = "public/img/image_stream.jpg";
+var imgPath = "/home/pi/PyroCam/public/img/image_stream.jpg";
 var imgUrlPath = "img/image_stream.jpg";
-var imgUrlPathFakeMode = "img2/peep.jpg";
+var imgUrlPathFakeMode = "/home/pi/PyroCam/publi/img2/peep.jpg";
 var startStreaming;
 var stopStreaming;
 var startWatch;
@@ -125,7 +125,7 @@ nconf.argv()
   .file({ file: './config.json' });
 //Set default values
 nconf.defaults({
-  'port': 3000,
+  'port': 80,
   'fakemode': false
 })
 
